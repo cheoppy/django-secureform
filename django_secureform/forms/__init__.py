@@ -9,7 +9,7 @@ from django import forms
 from django.conf import settings
 from django.core.cache import cache
 from django.forms import widgets
-from django.forms.util import ErrorDict
+from django.forms.utils import ErrorDict
 from django.forms.forms import pretty_name
 from django.forms.forms import NON_FIELD_ERRORS
 from django.forms.forms import BoundField
